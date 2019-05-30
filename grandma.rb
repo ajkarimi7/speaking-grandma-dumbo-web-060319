@@ -26,4 +26,8 @@ def speak_to_grandma(phrase)
   if phrase == 'WHAT DID YOU EAT TODAY?'
     return 'NO, NOT SINCE 1938!'
   end 
+  if phrase == 'WHAT?'
+    return 'NO, NOT SINCE 1938!'
+  end
+  
 end
